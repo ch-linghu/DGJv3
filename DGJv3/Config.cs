@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -32,10 +32,10 @@ namespace DGJv3
         public string SecondaryModuleId { get; set; }
 
         [JsonProperty("dmts")]
-        public uint MaxTotalSongNum { get; set; } = 10;
+        public uint MaxTotalSongNum { get; set; } = 100;
 
         [JsonProperty("dmps")]
-        public uint MaxPersonSongNum { get; set; } = 2;
+        public uint MaxPersonSongNum { get; set; } = 10;
 
         [JsonProperty("up")]
         public bool IsUserPrior { get; set; } = true;
