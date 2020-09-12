@@ -1,4 +1,4 @@
-﻿using DGJv3.InternalModule;
+using DGJv3.InternalModule;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -25,8 +25,8 @@ namespace DGJv3
             NullModule = new NullSearchModule();
             Modules.Add(NullModule);
 
-            Modules.Add(new LwlApiNetease());
             Modules.Add(new LwlApiTencent());
+            Modules.Add(new LwlApiNetease());
             Modules.Add(new LwlApiKugou());
             Modules.Add(new LwlApiBaidu());
             Modules.Add(new LwlApiXiami());

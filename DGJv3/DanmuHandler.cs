@@ -1,4 +1,4 @@
-﻿using BilibiliDM_PluginFramework;
+using BilibiliDM_PluginFramework;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

@@ -1,4 +1,4 @@
-﻿using NAudio.Wave;
+using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
 using System;
 using System.Collections.Generic;
@@ -296,8 +296,8 @@ namespace DGJv3
             currentSong.Status = SongStatus.Playing;
 
             wavePlayer = CreateIWavePlayer();
-            mp3FileReader = new Mp3FileReader(currentSong.FilePath);
-            sampleChannel = new SampleChannel(mp3FileReader)
+            MediaFoundationReader reader = new MediaFoundationReader(currentSong.FilePath);
+            sampleChannel = new SampleChannel(reader)
             {
                 Volume = Volume
             };

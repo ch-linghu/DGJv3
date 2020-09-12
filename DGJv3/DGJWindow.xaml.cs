@@ -1,4 +1,4 @@
-﻿using DGJv3.InternalModule;
+using DGJv3.InternalModule;
 using MaterialDesignThemes.Wpf;
 using Newtonsoft.Json.Linq;
 using System;
